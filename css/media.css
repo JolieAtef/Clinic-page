@@ -1,0 +1,62 @@
+/* large */
+@media (max-width:992px) {
+
+  .hero_left h2{
+    font-size: 2rem;
+  }
+  .card-content-1{
+    display: block;
+    position: static;
+   
+
+  }
+  .card-content-2{
+    display: block;
+    position: static;
+  }
+
+  .about_right{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+
+  }
+
+  .title h2{
+      width: 60%;
+      font-size: 1.2rem;
+  }
+
+  .card-content-1 ,.card-content-2{
+      width: 60%;
+      padding: 0 3%;
+  }
+  
+  
+}
+
+/* medium*/
+@media (max-width:768px){
+    .contact_icons{
+      display: none;
+    }
+    .hero_right{
+       min-height: 55vh;
+    }
+    .about_left{
+      text-align: center;
+    }
+    .about_numbers{
+      flex-direction: column;
+    }
+    .specialty_card .card_icon{  
+      left: 80%;   
+    }
+  
+
+    
+    
+}
+
