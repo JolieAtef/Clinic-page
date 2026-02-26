@@ -44,43 +44,27 @@
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 sticky-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><h1 class="dark_blue">Clinic</h1></a>
+              <a class="navbar-brand" href="#hero"><h1 class="dark_blue">Clinic</h1></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link _active " aria-current="page" href="#">Home</a>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Departments</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Doctors</a>
-                    </li>
+                    <a class="nav-link _active" aria-current="page" href="#">Home</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> More Pages</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                   </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#departments">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#doctors">Doctors</a>
+                    </li>
                    <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                   </li>
@@ -90,7 +74,7 @@
     </nav>
 
     <main>
-      <div class="hero_section py-5">
+      <div class="hero_section py-5" id="hero">
         <div class="container">
           <div class="row">
         <div class="hero_left col-lg-6 my-4 "  data-aos="fade-up-right" data-aos-duration="600" >
@@ -170,7 +154,7 @@
       </div>
       </div>
 
-      <div class="about_section overflow-hidden">
+      <div class="about_section overflow-hidden" id="about">
         <div class="container my-5">
          <div class="row align-items-center">
         <div class="about_left col-lg-6 my-4 " data-aos="fade-up-right" data-aos-duration="600">
@@ -220,7 +204,7 @@
        </div>
       </div>
 
-      <div class="departments">
+      <div class="departments" id="departments">
         <div class="title" data-aos="fade-up" data-aos-duration="400">
           <h2>Featured Departments</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -361,7 +345,7 @@
       </div>
 
 
-      <div class="services_section my-5">
+      <div class="services_section my-5" id="services">
 
         <div class="title" data-aos="fade-up" data-aos-duration="400">
           <h2>Featured Services</h2>
@@ -484,7 +468,7 @@
      </div>
 
 
-      <div class="doctors_section">
+      <div class="doctors_section" id="doctors">
         <div class="title" data-aos="fade-up" data-aos-duration="400">
           <h2>Find A Doctor</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -845,12 +829,13 @@
     </footer>
 
     
-
+     
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script>
       AOS.init();
       new PureCounter();
     </script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
