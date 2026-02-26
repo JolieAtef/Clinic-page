@@ -33,7 +33,14 @@
       width: 60%;
       padding: 0 3%;
   }
+
+  .search-input-group{
+    border-radius: 10px !important;
+  }
   
+  .search-input-group>*{
+    margin-top: 5px ;
+  }
   
 }
 

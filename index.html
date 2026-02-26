@@ -207,11 +207,11 @@
       
             <div class="card-content-2 d-flex flex-column fl align-items-center gap-4 bg-white rounded-3 shadow-lg p-3">
               <div class="icon p-3 rounded-circle">
-                <i class="bi bi-heart-pulse blue fs-3"></i>
+                <i class="bi bi-heart-pulse blue fs-4"></i>
               </div>
               <div class="card-text">
                 <h4 class="dark_blue fs-5">24/7 Emergency Care</h4>
-                <p class="dark_gray ">Always here when you need us most</p>
+                <p class="dark_gray">Always here when you need us most</p>
               </div>
           </div>
 
@@ -291,7 +291,7 @@
         <div class="col-lg-4">
           <div class="highlight_item p-4 border border-1 rounded-4 " data-aos="fade-up" data-aos-duration="500">
             <div class="highlight_icon my-5">
-              <i class="bi bi-shield-plus fs-1 text-white bg_blue p-3 rounded-circle"></i>
+              <i class="bi bi-shield-plus fs-2 text-white bg_blue p-3 rounded-circle"></i>
             </div>
             <h4>Orthopedic Surgery</h4>
             <p class="dark_gray">Comprehensive musculoskeletal care utilizing advanced arthroscopic techniques and joint replacement procedures.</p>
@@ -307,7 +307,7 @@
         <div class="col-lg-4">
           <div class="highlight_item p-4 border border-1 rounded-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
             <div class="highlight_icon my-5">
-              <i class="bi bi-people fs-1 text-white bg_blue p-3  rounded-circle"></i>
+              <i class="bi bi-people fs-2 text-white bg_blue p-3  rounded-circle"></i>
             </div>
             <h4>Pediatric Care</h4>
             <p class="dark_gray">Child-centered healthcare services from newborn to adolescence with family-focused treatment approaches.</p>
@@ -323,7 +323,7 @@
         <div class="col-lg-4">
           <div class="highlight_item p-4 border border-1 rounded-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" >
             <div class="highlight_icon my-5">
-              <i class="bi bi-activity fs-1 text-white bg_blue p-3  rounded-circle"></i>
+              <i class="bi bi-activity fs-2 text-white bg_blue p-3  rounded-circle"></i>
             </div>
             <h4>Cancer Treatment</h4>
             <p class="dark_gray">Multidisciplinary oncology program offering personalized cancer care with latest therapeutic innovations.</p>
@@ -377,7 +377,7 @@
             <img  src="./images/consultation-4.webp" class="rounded-4">
             <div class=" d-flex position-absolute top-0 start-0  bg-white py-1 px-3 m-3 rounded-pill align-items-center" >
               <i class="bi bi-heart-pulse blue fs-4 mx-2"></i>
-              <h4 class="dark_blue fs-6">Emergency Care</h4>
+              <h4 class="dark_blue fs-6 m-0">Emergency Care</h4>
             </div>
           </img>
           </div>
@@ -491,20 +491,20 @@
         </div>
         
         <div class="container">
-        <div class="find_doctor" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
+        <div class="find_doctor my-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
 
            <div class="doctor_header text-center">
             <h3 class="dark_blue fs-1">Find Your Perfect Healthcare Provider</h3>
             <p class="gray">Search through our comprehensive directory of experienced medical professionals</p>
            </div>
 
-          <div class="search ">
-          <div class="input-group w-50 m-auto justify-content-between align-items-center  rounded-pill shadow ">
-            <div class="input d-flex gap-2 align-items-center p-3 ">
+          <form class="search-form my-5" action="#!" method="#">
+          <div class="search-input-group w-75 m-auto d-flex flex-column flex-lg-row justify-content-between rounded-pill shadow p-4 p-lg-0 ps-lg-4 my-4">
+            <div class="input-wapper d-flex gap-2 align-items-center ">
             <i class="bi bi-person gray"></i>
-            <input type="text" class="form-control " placeholder="Enter doctor name" >
+            <input type="text" class="form-control" placeholder="Enter doctor name" >
            </div>
-           <div class="select d-flex  gap-2 align-items-center p-3">
+           <div class="input-wapper select d-flex  gap-2 align-items-center">
             <i class="bi bi-heart-pulse gray"></i>
             <select class="form-select" aria-label="Default select example">
               <option selected>All Specialties</option>
@@ -514,22 +514,25 @@
               <option value="4">Pediatrics</option>
             </select>
            </div>
-           <button type="submit" class="h-100 p-3 rounded-pill border-0 text-white bg_blue"><i class="bi bi-search fs-6 p-2"></i> Find Doctors</button>   
+           <button type="submit" class="btn main_btn h-100 p-3 rounded-pill border-0 text-white bg_blue p-4"><i class="bi bi-search fs-6 p-2"></i> Find Doctors</button>   
           </div>
           </div>
+        </form>
 
+
+    
           
 
         <div class="doctors"> 
-        <div class="row g-4">
+        <div class="row g-4 mt-5">
 
          <div class="col-md-6 col-xl-4">
-          <div class="doctor p-5 border border-1 rounded-4" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
+          <div class="doctor p-5 border border-1 rounded-4 h-100" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
           <div class="doctor_profile row ">
-           <div class="doctor_img col-3 h-75">
-             <img src="./images/staff-2.webp" class="rounded-4">
-             <div class="status"></div>
-           </div>
+           <div class="doctor_img col-3 h-75 position-relative ">
+             <img src="./images/staff-2.webp" class="rounded-4 ">
+             <div class="status position-absolute p-2 rounded-circle bg-success border border-2 border-white"></div>
+           </div> 
            <div class="doctor_info col-9 ">
              <h4 class="pb-1">Dr. Amanda Foster</h4>
              <span class="label rounded-pill">Cardiology Specialist</span>
@@ -559,11 +562,11 @@
 
 
          <div class="col-md-6 col-xl-4">
-          <div class="doctor p-5 border border-1 rounded-4" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
+          <div class="doctor p-5 border border-1 rounded-4 h-100" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
           <div class="doctor_profile row ">
-           <div class="doctor_img col-3 h-75">
+           <div class="doctor_img col-3 h-75 position-relative">
              <img src="./images/staff-6.webp" class="rounded-4">
-             <div class="status"></div>
+             <div class="status position-absolute p-2 rounded-circle bg-warning border border-2 border-white"></div>
            </div>
            <div class="doctor_info col-9 ">
              <h4 class="pb-1">Dr. Marcus Johnson</h4>
@@ -593,11 +596,11 @@
         </div>
         
          <div class="col-md-6 col-xl-4">
-          <div class="doctor p-5 border border-1 rounded-4" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
+          <div class="doctor p-5 border border-1 rounded-4 h-100" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
           <div class="doctor_profile row ">
-           <div class="doctor_img col-3 h-75">
+           <div class="doctor_img col-3 h-75 position-relative">
              <img src="./images/staff-4.webp" class="rounded-4">
-             <div class="status"></div>
+             <div class="status position-absolute p-2 rounded-circle bg-success border border-2 border-white"></div>
            </div>
            <div class="doctor_info col-9 ">
              <h4 class="pb-1">Dr. Rachel Williams</h4>
@@ -629,14 +632,14 @@
       
 
         <div class="col-md-6 col-xl-4">
-          <div class="doctor p-5 border border-1 rounded-4" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
+          <div class="doctor p-5 border border-1 rounded-4 h-100" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
           <div class="doctor_profile row ">
-           <div class="doctor_img col-3 h-75">
-             <img src="./images/staff-2.webp" class="rounded-4">
-             <div class="status"></div>
+           <div class="doctor_img col-3 h-75 position-relative">
+             <img src="./images/staff-8.webp" class="rounded-4">
+             <div class="status position-absolute p-2 rounded-circle bg-secondary border border-2 border-white"></div>
            </div>
            <div class="doctor_info col-9 ">
-             <h4 class="pb-1">Dr. David Chen</h4>
+             <h4 class="pb-1">Dr. Benjamin Lee</h4>
              <span class="label rounded-pill">Orthopedic Surgery</span>
              <div class="experiance d-flex gap-2 align-items-center py-3">
                <i class="bi bi-award blue"></i>
@@ -652,8 +655,8 @@
                <i class="bi bi-star-fill"></i>
                <i class="bi bi-star-half"></i>
              </div>
-             <span class="fw-bold">4.9</span>
-             <p class="gray">(127 reviews)</p>
+             <span class="fw-bold">4.7</span>
+             <p class="gray">(156 reviews)</p>
            </div>
            <div class="doctor_btns d-flex gap-3">
             <button class="btn w-50 border border-1 ">View Detailes</button>
@@ -662,154 +665,185 @@
           </div>
         </div>
 
-      <div class="col-md-6 col-xl-4">
-        <div class="doctor">
-        <div class="doctor_profile">
-         <div class="doctor_img">
-           <img src="./images/staff-8.webp">
-           <div class="status"></div>
-         </div>
-         <div class="doctor_info">
-           <h3></h3>
-           <span>Orthopedic Surgery</span>
-           <div class="experiance">
-             <i class="bi bi-award"></i>
-             <p>22 years experience</p>
-         </div>
-         <div class="rating">
-           <div class="rating-stars">
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-half"></i>
+
+        <div class="col-md-6 col-xl-4">
+          <div class="doctor p-5 border border-1 rounded-4 h-100" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
+          <div class="doctor_profile row ">
+           <div class="doctor_img col-3 h-75 position-relative">
+             <img src="./images/staff-14.webp" class="rounded-4">
+             <div class="status position-absolute p-2 rounded-circle bg-success border border-2 border-white"></div>
            </div>
-           <span>4.7</span>
-           <p>(156 reviews)</p>
-         </div>
-         <div class="doctor_btns">
-          <button>View Detailes</button>
-          <button>Book Now</button>
-         </div>
-         </div>
-
-        </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="doctor">
-        <div class="doctor_profile">
-         <div class="doctor_img">
-           <img src="./images/staff-11.webp">
-           <div class="status"></div>
-         </div>
-         <div class="doctor_info">
-           <h3>Dr. Victoria Torres</h3>
-           <span>Dermatology Care</span>
-           <div class="experiance">
-             <i class="bi bi-award"></i>
-             <p>9 years experience</p>
-         </div>
-         <div class="rating">
-           <div class="rating-stars">
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-half"></i>
+           <div class="doctor_info col-9 ">
+             <h4 class="pb-1">Dr. Victoria Torres</h4>
+             <span class="label rounded-pill">Oncology Treatment</span>
+             <div class="experiance d-flex gap-2 align-items-center py-3">
+               <i class="bi bi-award blue"></i>
+               <p class="m-0 gray">19 years experience</p>
            </div>
-           <span>4.5</span>
-           <p>(74 reviews)</p>
-         </div>
-         <div class="doctor_btns">
-          <button>View Detailes</button>
-          <button>Book Now</button>
-         </div>
-         </div>
-
+          </div>
         </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="doctor">
-        <div class="doctor_profile">
-         <div class="doctor_img">
-           <img src="./images/staff-14.webp">
-           <div class="status"></div>
-         </div>
-         <div class="doctor_info">
-           <h3>Dr. Benjamin Lee</h3>
-           <span>Oncology Treatment</span>
-           <div class="experiance">
-             <i class="bi bi-award"></i>
-             <p>19 years experience</p>
-         </div>
-         <div class="rating">
-           <div class="rating-stars">
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-fill"></i>
-             <i class="bi bi-star-half"></i>
+           <div class="rating d-flex gap-3">
+             <div class="rating-stars">
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-half"></i>
+             </div>
+             <span class="fw-bold">4.9</span>
+             <p class="gray">(194 reviews)</p>
            </div>
-           <span>4.9</span>
-           <p>(194 reviews)</p>
-         </div>
-         <div class="doctor_btns">
-          <button>View Detailes</button>
-          <button>Book Now</button>
-         </div>
-         </div>
+           <div class="doctor_btns d-flex gap-3">
+            <button class="btn w-50 border border-1 ">View Detailes</button>
+            <button  class="btn btn-primary main_btn w-50">Book Now</button>
+           </div>           
+          </div>
+        </div>
 
+        <div class="col-md-6 col-xl-4">
+          <div class="doctor p-5 border border-1 rounded-4 h-100" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="50" >
+          <div class="doctor_profile row ">
+           <div class="doctor_img col-3 h-75 position-relative">
+             <img src="./images/staff-11.webp" class="rounded-4">
+             <div class="status position-absolute p-2 rounded-circle bg-secondary border border-2 border-white"></div>
+           </div>
+           <div class="doctor_info col-9 ">
+             <h4 class="pb-1">Dr. Benjamin Lee</h4>
+             <span class="label rounded-pill">Dermatology Care</span>
+             <div class="experiance d-flex gap-2 align-items-center py-3">
+               <i class="bi bi-award blue"></i>
+               <p class="m-0 gray">9 years experience</p>
+           </div>
+          </div>
         </div>
+           <div class="rating d-flex gap-3">
+             <div class="rating-stars">
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-fill"></i>
+               <i class="bi bi-star-half"></i>
+             </div>
+             <span class="fw-bold">4.5</span>
+             <p class="gray">(74 reviews)</p>
+           </div>
+           <div class="doctor_btns d-flex gap-3">
+            <button class="btn w-50 border border-1 ">View Detailes</button>
+            <button  class="btn btn-primary main_btn w-50">Book Now</button>
+           </div>           
+          </div>
         </div>
-      </div>
+
+    
+     
+    
       </div>
           </div>
         </div>
 
-        <button>View All Doctors <i class="bi bi-arrow-right"></i></button>
+        <button class="btn main_btn text-white py-4 rounded-pill mx-auto d-block my-4">View All Doctors <i class="bi bi-arrow-right"></i></button>
       </div>
     </div>
 
-      <div class="scroll_top position-fixed bottom-0 end-0 m-3 bg_blue p-2 rounded-circle">
-        <a href="./index.html"><i class="bi bi-arrow-up-short fs-3 text-white"></i></a>
+      <div class="scroll_top position-fixed bottom-0 end-0 m-3 bg_blue rounded-circle text-center d-flex align-items-center justify-content-center">
+        <a href="./index.html" ><i class="bi bi-arrow-up-short text-white fs-3 "></i></a>
       </div>
 
     </main>
 
     <footer>
-      <div class="footer_left">
-        <a href="./index.html"><i class="bi bi-arrow-up-short"></i></a>
-        <p>Crafting exceptional digital experiences through thoughtful design and innovative solutions that elevate your brand presence.</p>
+       <div class="container p-3">
+      <div class="row p-5">
+        <div class="col-lg-5">
+      <div class="footer_left px-3">
 
-        <div class="contacts">
-          <div class="contact_item">
-            <i class="bi bi-geo-alt"></i>
-            <p>123 Creative Boulevard, Design District, NY 10012</p>
+        <a href="./index.html"><h2 class="mb-4">Clinic</h2></a>
+        <p class="gray">Crafting exceptional digital experiences through thoughtful design and innovative solutions that elevate your brand presence.</p>
+
+        <div class="contacts my-4 ">
+          <div class="contact_item d-flex gap-2">
+            <i class="bi bi-geo-alt blue"></i>
+            <p class="dark_gray">123 Creative Boulevard, Design District, NY 10012</p>
           </div>
-          <div class="contact_item">
-            <i class="bi bi-telephone"></i>
-            <p>+1 (555) 987-6543</p>
+          <div class="contact_item d-flex gap-2 ">
+            <i class="bi bi-telephone blue"></i>
+            <p class="dark_gray">+1 (555) 987-6543</p>
           </div>
-          <div class="contact_item">
-            <i class="bi bi-envelope"></i>
-            <p>hello@designstudio.com</p>
+          <div class="contact_item d-flex gap-2 ">
+            <i class="bi bi-envelope blue"></i>
+            <p class="dark_gray">hello@designstudio.com</p>
           </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-lg-7">
+      <div class="footer_right">
+
+        <div class="row">
+        <div class="col-lg-3 col-6">
+         <div class="footer_right_item">
+          <h4 class="fs-6">Studio</h4>
+          <ul class="list-unstyled dark_gray">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Design Process</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">Awards</a></li>
+          </ul>
+         </div>
+        </div>
+
+        <div class="col-lg-3 col-6">
+         <div class="footer_right_item">
+          <h4 class="fs-6">Services</h4>
+          <ul class="list-unstyled dark_gray">
+            <li><a href="#">Brand Identity</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Mobile Apps</a></li>
+            <li><a href="#">Digital Strategy</a></li>
+            <li><a href="#">Consultation</a></li>
+          </ul>
+         </div>
+        </div>
+
+        <div class="col-lg-3 col-6">
+         <div class="footer_right_item">
+          <h4 class="fs-6">Resources</h4>
+          <ul class="list-unstyled dark_gray">
+            <li><a href="#">Style Guide</a></li>
+            <li><a href="#">Design Blog</a></li>
+            <li><a href="#">Free Assets</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Inspiration</a></li>
+          </ul>
+         </div>
+        </div>
+
+        <div class="col-lg-3 col-6">
+         <div class="footer_right_item">
+          <h4 class="fs-6">Connect</h4>
+          <ul class="list-unstyled dark_gray">
+            <li><a href="#">Start Project</a></li>
+            <li><a href="#">Schedule Call</a></li>
+            <li><a href="#">Join Newsletter</a></li>
+            <li><a href="#">Follow Updates</a></li>
+            <li><a href="#">Partnership</a></li>
+          </ul>
+         </div>
         </div>
 
       </div>
-      <div class="footer_right">
-         
-      </div>
-      
-      <div class="footer_bottom">
+    </div>
+  </div>
+  </div>
 
+      <div class="footer_bottom text-center">
+            <p class="fs-6 gray m-0">© <span class=" text-black">Clinic</span>. All rights reserved.</p>
       </div>
-
+    </div>
     </footer>
+
     
 
     <script src="./js/bootstrap.bundle.min.js"></script>
